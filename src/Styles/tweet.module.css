@@ -1,0 +1,67 @@
+.tweet {
+  max-width: 40vw;
+  margin-top: 4vh;
+  min-height: 8vh;
+  /* box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); */
+  padding-left: 2vw;
+  padding-top: 1vh;
+  border-radius: 10px;
+  margin-bottom: 2vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1vh;
+}
+.tweet p {
+  width: 50ch;
+  margin-top: 1vh;
+  font-size: 18px;
+}
+.tweet address {
+  font-weight: 600;
+}
+.icons {
+  cursor: pointer;
+  opacity: 0;
+  /* color: rgb(0, 162, 255); */
+  margin-left: 12px;
+}
+.iconDiv {
+  width: 3vw;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-right: 1.2vw;
+  margin-top: 0.2vh;
+}
+@media only screen and (max-width: 720px) {
+  .tweet {
+    max-width: 70vw;
+    min-width: 70vw;
+    display: flex;
+    justify-content: center;
+  }
+  .tweet p {
+    width: 35ch;
+  }
+  .iconDiv {
+    margin-left: 10vw;
+    width: 2vw;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tweet {
+    max-width: 70vw;
+    min-width: 70vw;
+    display: flex;
+    justify-content: center;
+  }
+  .tweet p {
+    width: 23ch;
+  }
+  .iconDiv {
+    margin-left: 10vw;
+    width: 2vw;
+  }
+}
